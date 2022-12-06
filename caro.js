@@ -19,6 +19,7 @@
 			for (var k = 0; k < 20; k++) {
 			  	box = document.createElement('td');
 				box.onclick = recordMove;
+				boxes.push(box);
 				row.appendChild(box);
 			}
 		}
@@ -48,5 +49,5 @@
 	window.onload = function () {
 	  	createBoard();
 	}
-   
+	
 })();
