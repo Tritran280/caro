@@ -1,0 +1,48 @@
+
+.title-tt {
+	text-align: center;
+	color: rgba(51, 51, 203, 0.765);
+	font: 1cm sans-serif;
+	background-color: rgb(212, 184, 148);
+}
+.Container{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(66, 192, 199, 0.287);
+	margin: auto;
+}
+.xcolor{
+	color: red;
+}
+.ycolor{
+	color: blue;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+	width: 480px;
+	height: 480px;
+  }
+td {
+
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	text-align: center;
+	font: normal 0.5cm Helvetica, sans-serif;
+	color: rgb(227, 22, 22);
+	background-color: rgba(0, 255, 255, 0.242);
+  }
+.button.buttonInContainer{
+	/* text-align :center; */
+	background-color:rgb(206, 206, 13);
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+}
