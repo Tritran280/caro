@@ -24,6 +24,7 @@ table {
 	width: 480px;
 	height: 480px;
   }
+  
 td {
 
 	display: inline-block;
@@ -38,11 +39,19 @@ td {
 	color: rgb(227, 22, 22);
 	background-color: rgba(0, 255, 255, 0.242);
   }
-.button.buttonInContainer{
-	/* text-align :center; */
-	background-color:rgb(206, 206, 13);
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
 
+.buttonInContainer {
+	text-align: center;
+	margin: auto;
+  }
+
+.buttonInContainer a {
+	background: rgb(4, 157, 89);
+	border-radius: 5px;
+	color: rgb(235, 46, 46);
+	padding: 6px 8px;
+	margin: 0px 5px;
+	cursor: pointer;
+	font-weight: bold;
+	border: 1.8px solid rgba(2, 88, 41, 0.78);
 }
